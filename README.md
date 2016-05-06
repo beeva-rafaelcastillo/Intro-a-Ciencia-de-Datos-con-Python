@@ -16,14 +16,14 @@ Requisito para asistir al curso son conocimientos de Python así como interés e
 El siguiente codigo os servira para instalar todas las dependencias:
 
 ```
- sudo apt-get install build-essential python-dev python-setuptools \
-                     python-numpy python-scipy \
-                     libatlas-dev libatlas3gf-base \
-                     python-matplotlib python-pip; pip install ipython
+sudo apt-get install build-essential python-dev python-setuptools \ 
+						python-numpy python-scipy \ 
+						libatlas-dev libatlas3gf-base \ 
+						python-matplotlib python-pip python-sklearn ; sudo pip install ipython notebook
 ``` 
 
 
-Por otro lado, existen distribuciones de Python que ya incluyen todos estos paquetes, [Anaconda con Python 2.7](https://www.continuum.io/downloads) es una muy buena opcion!. Asimismo existen imagenes en [Docker](https://github.com/ContinuumIO/docker-images/tree/master/anaconda) pero he de decir que no las he usado por lo que si alguien se anima, estar´ia bien que nos cuente su experiencia.
+Por otro lado, existen distribuciones de Python que ya incluyen todos estos paquetes, [Anaconda con Python 2.7](https://www.continuum.io/downloads) es una muy buena opcion! (Yo tengo instalada esta distribucion). Asimismo existen imagenes en [Docker](https://github.com/ContinuumIO/docker-images/tree/master/anaconda) pero he de decir que no las he usado por lo que si alguien se anima, estaria bien que nos cuente su experiencia.
 
 **IMPORTANTE: Por favor, para comprobar el estado de la instalacion y asegurar que todos los requisitos se cumplen, por favor ejecutar el notebook Prueba_Instalacion.ipynb**. Aqui paso un [tutorial sobre notebooks](http://cs231n.github.io/ipython-tutorial/).
 
