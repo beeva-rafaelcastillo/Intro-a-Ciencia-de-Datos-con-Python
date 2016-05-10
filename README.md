@@ -19,7 +19,7 @@ El siguiente codigo os servira para instalar todas las dependencias:
 sudo apt-get install build-essential python-dev python-setuptools \ 
 						python-numpy python-scipy \ 
 						libatlas-dev libatlas3gf-base \ graphviz
-						build-dep matplotlib python-pip python-sklearn ; sudo pip install ipython notebook pydot
+						python-matplotlib python-pip python-sklearn ; sudo pip install ipython notebook pydot
 ``` 
 
 
